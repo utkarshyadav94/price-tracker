@@ -1,0 +1,25 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Streamlit / local runtime
+.streamlit/secrets.toml
+.streamlit/*.json
+
+# Local data and database files
+*.db
+*.sqlite3
+data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
